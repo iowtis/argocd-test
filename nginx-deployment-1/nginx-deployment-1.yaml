@@ -3,7 +3,7 @@ apiVersion: apps/v1
 metadata:
   name: nginx-deployment-1
 spec:
-  #  replicas: 4
+  replicas: 4
   selector:
     matchLabels:
       app: nginx_pod_1
