@@ -1,5 +1,3 @@
-apiVersion: kustomzie.config.k8s.io/v1beta1
-kind: Kustomization
 resources:
 - nginx-deployment-1.yaml
 - service-lb.yaml
